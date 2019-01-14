@@ -27,7 +27,7 @@ input[type="button"] {
 
 .fancy .jSlots-wrapper {
 	overflow: hidden;
-	height: 60px;
+	height: 180px;
 	display: inline-block;
 	/* to size correctly, can use float too, or width*/
 	border: 1px solid #999;

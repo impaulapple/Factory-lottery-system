@@ -199,10 +199,10 @@ function getNowStatus(type) {
 // };
 function setSlot(eleClassName, btnId) {
     return $(eleClassName).jSlots({
-        number: 3, //要幾格
+        number: 1, //要幾格
         spinner: btnId, //轉盤ID '#playFancy'
         easing: 'easeInOutBounce', //轉盤風格
-        time: 700, //時間
+        time: 600, //時間
         loops: 10, //模擬跑幾圈
         onStart: function (spinner) {
             $('.slot').removeClass('winner');
